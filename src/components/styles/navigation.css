@@ -1,0 +1,52 @@
+.navigationBox{
+    height: 75px;
+    border-bottom: #006699 1px solid;
+    text-align:center;
+}
+
+a:link.navigationLink, a:visited.navigationLink {
+    color: grey;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: white solid 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  a:hover.navigationLink, a:active.navigationLink {
+    background-color: #e3e8e7;
+  }
+
+.sidebarDiv{
+  width: 140px;
+  height: 100vh;
+  float: left;
+  background-color: rgb(183, 183, 214);
+}
+
+.contentDiv{
+  height: 100vh; 
+  float: left;
+}
+
+a:link.sideBarLink, a:visited.sideBarLink{
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: rgb(183, 183, 214) solid 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 70px;
+}
+
+a:hover.sideBarLink, a:active.sideBarLink {
+  border-color: white;
+}
